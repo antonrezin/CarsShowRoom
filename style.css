@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: -webkit-linear-gradient(360deg,#224e4d 10%,#083023 360%); background: linear-gradient(360deg,#224e4d 10%,#083023 360%);
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10vw;
+    margin-left: 5px;
+    margin-right: 5px;
+    min-height: 100vh;
+}
+
+main {
+text-align: center;
+color: #03de44;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 50px;
+    display: inline-block;
+    align-items: center;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: azure;
+    padding: 3px 12px;
+    border-radius: 200px;
+    margin: 0 10px;
+    min-width: 100px;
+    font-size: 40px;
+}
+
+.navigation a:hover {
+    background-color: #03de44;
+    color: azure;
+}
+
+
+img {
+    width: 30vw;
+    padding: 0px;
+    border: 1px solid #03de44;
+}
+
+h1 {
+    background-color: rgb(30, 30, 30);
+    padding: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #03de44;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 30px;
+}
+
+h2 {
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #03de44;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+p {
+    font-size: 3vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2em;
+}
+
+div {
+    background-color: rgb(30, 30, 30);
+    padding: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #03de44;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 50px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+    color: #03de44;
+    text-align: left;
+}
